@@ -1,5 +1,3 @@
-import {params} from ./../app/definition.tsx;
-
 export default function ProjectDetails({params,
     }: {
         params: {projectId:string};
