@@ -1,33 +1,43 @@
 Editing by learning from [Next JS Documentaiton](https://nextjs.org/learn/dashboard-app/getting-started)
+
 Youtube tutorial from Codevolution Next js course [Youtube](https://www.youtube.com/watch?v=x7oQC_R_yVo&list=PLC3y8-rFHvwjOKd6gdf4QtV1uYNiQnruI&index=4)
 
 ### Notes
 
 In next js everything by default is server component , to create a client component use-client on top of file
 
-### Flow 
+### 01 Flow 
+
+```bash
 
 npm run dev > layout.tsx > page.tsx 
 
-### Routing
+```
+
+### 02 Routing
 
 All route must be placed in the app folder 
 
 Every file that corresponds to a route must be named page.tsx 
 Every folder correspond to a path segment in the browser URL
 
-### nested Routing
+### 03 Nested Routing
 
 create blog and blog/first , blog/second
 
-### Dynamic Route segments
+### 04 Dynamic Route segments
 
 list of projects and details about each project 
 
+```bash
+
 add a folder [projectId] with brackets
+
 use params to capture the unique details 
 
-### Nested Dynamic Route 
+```
+
+### 05 Nested Dynamic Route 
 
 scenario project > project details > review > review details
 
